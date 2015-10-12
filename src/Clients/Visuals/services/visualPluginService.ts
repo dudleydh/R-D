@@ -279,7 +279,7 @@ module powerbi.visuals {
             createPlugin(plugins, powerbi.visuals.plugins.dotPlot, () => new samples.DotPlot({
                 animator: new BaseAnimator()
             }));
-            // DotPlot
+            // AreaRange Chart
             createPlugin(plugins, powerbi.visuals.plugins.areaRangeChart, () => new samples.AreaRangeChart({
                 animator: new BaseAnimator()
             }));
